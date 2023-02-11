@@ -24,18 +24,20 @@
     font-family: 'Plus Jakarta Sans', sans-serif;
     background: none;
     color: #fff;
-    cursor: pointer;
-    border: 1px solid transparent;
-    border-image: linear-gradient(45deg, #5404FF, #BD3BD2);
-    background-clip: padding-box;
-    border-image-slice: 9;
+    cursor: pointer;  
+    border:1px solid #0000;
+    border-radius:100px;
+    background:
+      linear-gradient(#121B27,#121B27) padding-box,
+      linear-gradient(#5404FF, #BD3BD2) border-box;
+
 }
 
-.btn button:hover{
+/* .btn button:hover{
     background: linear-gradient(112.92deg, #5404FF 18.35%, rgba(189, 59, 210, 0.94) 71.49%);
     transform: scale(0.3s);
     transition:3s
-}
+} */
 
 /* .header_logo>img {
     width: 70%;
