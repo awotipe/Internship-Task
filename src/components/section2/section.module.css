@@ -213,8 +213,18 @@ textarea{
 
 @media screen and (max-width: 425px){
     .text h1{
-        font-size: 3rem;
+        text-align: left;
+        font-size: 38px;
+        margin: auto;
+        width: 80%;
     }
+
+    .text p{
+        width: 80%;
+        margin: auto;
+        text-align: left;
+    }
+
     .form{
         width: 353px;
     }
@@ -237,5 +247,30 @@ textarea{
     .form h2{
         margin-left: 2rem;
     }
+
+    .text>img{
+        width: 35%;
+        margin-left: 0rem;
+    }
     
+}
+
+@media screen and (max-width: 375px){
+    .text p{
+        width: 80%;
+        margin: auto;
+        text-align: left;
+    }
+
+    .text h1{
+        text-align: left;
+        font-size: 35px;
+        margin: auto;
+        width: 80%;
+    }
+
+    .text>img{
+        width: 30%;
+        margin-left: 0rem;
+    }
 }
