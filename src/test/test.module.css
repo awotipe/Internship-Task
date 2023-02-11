@@ -1,0 +1,13 @@
+
+.wrap{
+    background-image: url('../assets/backHero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+
+.innerContainer{
+    padding-top: 8rem;
+    width: 90%;
+    margin: auto;
+}

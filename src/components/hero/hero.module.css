@@ -1,0 +1,214 @@
+.container{
+   width: 100%;
+   text-align: center;
+   margin: auto;
+   color: #fff;
+}
+
+.container h1{
+    text-align: center;
+    margin: auto;
+    width: 70%;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 110%;
+    padding-bottom: 1rem;
+}
+
+.container p{
+    text-align: center;
+    margin: auto;
+    width: 77%;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 130%;
+    color: #FCFCFC;
+    margin-bottom: 2rem;
+}
+
+.container h1 span{
+    color: #A75FD2;
+}
+
+input{
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    background: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 14px 12px;
+    gap: 8px;
+    margin: auto;
+    margin-bottom: 15px;
+    width: 30%;
+    color: #FFFFFF;
+}
+
+.input1[type='text'] {
+    background-image: url(../../assets/tell.png);
+    background-position: 7px 11px;
+    background-repeat: no-repeat;
+    width: 443px;
+    height: 50px;
+}
+
+.input2[type='text'] {
+    background-image: url(../../assets/email.png);
+    background-position: 7px 11px;
+    background-repeat: no-repeat;
+    width: 443px;
+    height: 50px;
+}
+
+::-webkit-input-placeholder {
+    color: #FFFFFF !important;
+    padding-left: 1.7rem;
+}
+
+.form button{
+    background: linear-gradient(112.92deg, #5404FF 18.35%, rgba(189, 59, 210, 0.94) 71.49%);
+    border-radius: 100px;
+    align-items: center;
+    padding: 14px 12px;
+    width: 443px;
+    height: 50px;
+    border: none;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin-top: 10px;
+}
+
+.form button:hover{
+    background:#ffffff;
+    color: #5404FF
+}
+
+.joined{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 19%;
+    margin-top:1rem;
+}
+
+.text p{
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    width: 100%;
+    margin-top: 7px;
+}
+
+@keyframes slidein {
+    from {
+      margin-top: 100%;
+      width: 50%;
+    }
+  
+    to {
+      margin-bottom: 0%;
+      width: 50%;
+    }
+  }
+
+@media screen and (max-width: 1024px){
+    .container h1{
+        width: 80%;
+        font-size: 54px;
+        line-height: 110%;
+    }
+
+    .joined{
+        width: 24%;
+        margin-top:1rem;
+    }
+    
+  }
+
+@media screen and (max-width: 768px){
+    .container h1{
+        width: 80%;
+        font-size: 44px;
+    }
+    
+    .container p{
+        width: 77%;
+        font-size: 18px;
+        line-height: 130%;
+        color: #FCFCFC;
+        margin-bottom: 2rem;
+    }
+
+    .joined{
+        width: 34%;
+    }
+
+    .joined p{
+        font-size: 18px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .container{
+        margin-top: -30px
+    }
+    .container h1{
+        width: 85%;
+        font-size: 45px;
+
+    }
+    
+    .container p{
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+
+    .joined{
+        width: 34%;
+    }
+
+    .joined p{
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .input1[type='text'] {
+        background-image: url(../../assets/tell.png);
+        background-position: 7px 11px;
+        background-repeat: no-repeat;
+        width: 343px;
+        height: 50px;
+    }
+    
+    .input2[type='text'] {
+        background-image: url(../../assets/email.png);
+        background-position: 7px 11px;
+        background-repeat: no-repeat;
+        width: 343px;
+        height: 50px;
+    }
+
+    .form button{
+        width: 343px;
+    }
+
+    .joined{
+        width: 64%;
+    }
+
+    .joined p{
+        font-size: 20px;
+        width: 100%;
+    }
+}

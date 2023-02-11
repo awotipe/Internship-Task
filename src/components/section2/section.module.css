@@ -1,0 +1,241 @@
+.container{
+    background-image: url('../../assets/backHero2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.innerContainer{
+    padding-top: 10rem;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    width: 40%;
+    color: #ffffff;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin-top: 12rem;
+}
+
+.text h1{
+    font-size: 3.2rem;
+}
+
+.text>img{
+    margin-left: 6.5rem;
+    margin-top: 4px;
+}
+
+.text p{
+    padding-top: 1rem;
+    width:78%;
+    font-size: 1.2rem;
+}
+
+.form{
+    /* width: 60%; */
+    width: 633px;
+    height: 747px;
+    background: #1D2939;
+    border-radius: 20px;
+    padding-top: 4rem;
+}
+
+.form h2{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+}
+
+.formGroup input{
+    background: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 14px 12px;
+    gap: 8px;
+    margin: auto;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin-bottom: 20px;
+    width: 30%;
+    color: #FFFFFF;
+    width: 494px;
+    height: 53px;
+    border: 1px solid rgba(221, 221, 221, 0.5);
+    border-radius: 8px;
+}
+
+::-webkit-input-placeholder {
+    color: #FFFFFF !important;
+}
+
+.form button{
+    background: linear-gradient(112.92deg, #5404FF 18.35%, rgba(189, 59, 210, 0.94) 71.49%);
+    border-radius: 100px;
+    align-items: center;
+    padding: 14px 12px;
+    width: 494px;
+    height: 50px;
+    margin: 10%;
+    border: none;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.form button:hover{
+    background:#ffffff;
+    color: #5404FF
+}
+
+textarea{
+    background: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 14px 12px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    gap: 8px;
+    margin: auto;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+    width: 494px;
+    height: 100px;
+    border: 1px solid rgba(221, 221, 221, 0.5);
+    border-radius: 8px;
+}
+
+
+@media screen and (max-width: 1024px){
+    .form{
+        width: 40%;
+        width: 533px;
+        height: 747px;
+        padding-top: 4rem;
+    }
+
+    .form button{
+        margin: 7%;
+        width: 424px;
+    }
+
+    .text{
+        width: 50%;
+        margin-top: 12rem;
+    }
+
+    .text p{
+        width: 90%;
+    }
+
+    .formGroup input{
+        width: 424px;
+        height: 53px;
+    }
+
+    textarea{
+        width: 30%;
+        width: 424px;
+    }
+
+    .form h2{
+        margin-left: 2rem;
+    }
+
+
+}
+
+@media screen and (max-width: 768px){
+    .innerContainer{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+
+    .form{
+        width: 533px;
+        height: 747px;
+        padding-top: 4rem;
+        margin: auto;
+        margin-top: 2rem;
+    }
+
+    .form button{
+        margin: 10%;
+        margin-top: 5px;
+    }
+
+    .text{
+        width: 100%;
+        margin-top: 12rem;
+        margin: auto;
+        text-align: center;
+    }
+
+    .text p{
+        width: 80%;
+        margin: auto;
+    }
+
+    .text>img{
+        margin-left: 0rem;
+        margin-top: 4px;
+    }
+
+    .formGroup input{
+        width: 424px;
+        height: 53px;
+    }
+
+    textarea{
+        width: 30%;
+        width: 424px;
+    }
+
+    .form h2{
+        margin-left: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .text h1{
+        font-size: 3rem;
+    }
+    .form{
+        width: 353px;
+    }
+
+    .formGroup input{
+        width: 300px;
+        height: 53px;
+    }
+
+    textarea{
+        width: 300px;
+    }
+
+    .form button{
+        margin: 7%;
+        width: 300px;
+        margin-top: 5px;
+    }
+
+    .form h2{
+        margin-left: 3.5rem;
+    }
+    
+}
