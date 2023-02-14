@@ -34,40 +34,41 @@
     color: #A75FD2;
 }
 
-input{
+.input1{
+    height: 50px;
+    box-sizing:border-box;
+    padding-left: 2.5rem;
     border: 1px solid #FFFFFF;
     border-radius: 8px;
     background: none;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 14px 12px;
-    gap: 8px;
     margin: auto;
     margin-bottom: 15px;
     width: 30%;
     color: #FFFFFF;
+    background: url('../../assets/tell.png');
+    background-repeat: no-repeat;
+    background-position: 7px 11px;
 }
 
-.input1[type='text'] {
-    background-image: url(../../assets/tell.png);
-    background-position: 7px 11px;
-    background-repeat: no-repeat;
-    width: 443px;
+.input2{
     height: 50px;
-}
-
-.input2[type='text'] {
-    background-image: url(../../assets/email.png);
-    background-position: 7px 11px;
+    box-sizing:border-box;
+    padding-left: 2.5rem;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    background: none;
+    margin: auto;
+    margin-bottom: 15px;
+    width: 30%;
+    color: #FFFFFF;
+    background: url('../../assets/email.png');
     background-repeat: no-repeat;
-    width: 443px;
-    height: 50px;
+    background-position: 7px 11px;
 }
 
 ::-webkit-input-placeholder {
     color: #FFFFFF !important;
-    padding-left: 1.7rem;
+    /* padding-left: 1.7rem; */
 }
 
 .form button{
@@ -97,8 +98,17 @@ input{
     display: flex;
     justify-content: space-between;
     margin: auto;
-    width: 19%;
+    width: 16%;
     margin-top:1rem;
+}
+
+.images{
+    display: flex;
+    justify-content: space-betwee;
+}
+
+.image{
+    margin-right: -10px;
 }
 
 .text p{

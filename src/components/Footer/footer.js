@@ -1,7 +1,7 @@
 import React from 'react'
 import classes from './footer.module.css';
 import Address from "../../assets/address.png";
-import Call from "../../assets/phone.png";
+import Phone from "../../assets/phone.png";
 
 const footer = () => {
   return (
@@ -17,7 +17,7 @@ const footer = () => {
             <p>Loyalbaze is almost here.</p>
         </div>
         <div className={classes.call}>
-        <div><img src={Call} alt="icon" /></div>
+        <div><img src={Phone} alt="icon" /></div>
         <p>+234 903 618 9485</p>
         </div>
         </div>

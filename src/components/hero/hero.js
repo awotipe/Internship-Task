@@ -5,6 +5,7 @@ import LogoO from "../../assets/o.png";
 import LogoU from "../../assets/u.png";
 import LogoM from "../../assets/m.png";
 
+
 const hero = () => {
   return (
     <div className={classes.container}>
@@ -21,27 +22,21 @@ const hero = () => {
         business. Sign up now to get early access.
       </p>
       <div className={classes.form}>
-        <form className={classes.formTwo}>
           <input className={classes.input1}
-            type="text"
-            name="user_Name"
-            placeholder="Tell us your name"
-          ></input>
+            type="text" name="user_Name"placeholder="Tell us your name"
+          ></input><br/>
           <input className={classes.input2}
-            type="text"
-            name="user_Email"
-            placeholder="Enter your email address "
+            type="text" name="user_Email"placeholder="Enter your email address "
           ></input>
           <div>
             <button className={classes.btn}>Get early access</button>
           </div>
-        </form>
         <div className={classes.joined}>
           <div className={classes.images}>
-            <img src={LogoG} alt="Logo" />
-            <img src={LogoO} alt="Logo" />
-            <img src={LogoU} alt="Logo" />
-            <img src={LogoM} alt="Logo" />
+            <div className={classes.image}><img src={LogoG} alt="Logo" /></div>
+            <div className={classes.image}><img src={LogoO} alt="Logo" /></div>
+            <div className={classes.image}><img src={LogoU} alt="Logo" /></div>
+            <div className={classes.image}><img src={LogoM} alt="Logo" /></div>
           </div>
           <div className={classes.text}>
           <p>+57 Joined</p>
